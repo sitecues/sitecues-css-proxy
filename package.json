@@ -24,8 +24,16 @@
     "node": ">=6"
   },
   "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "css-proxy": "bin/css-proxy.js"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
   "files": [
-    "index.js"
+    "index.js",
+    "lib",
+    "bin"
   ],
   "dependencies": {
     "boom": "^4.1.0",
